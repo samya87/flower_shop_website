@@ -20,13 +20,19 @@ li{
     border-radius: 8px;  width:190px; height: fit-content; text-align: center;
 }
 ul{
-    padding-top: 50px; padding-left: 900px;
+    padding-top: 50px; padding-left: 850px;
 }
 li a{
-    text-decoration: none; color: black; font-size: 25px;  
+    text-decoration: none; color: black; font-size: 25px;  font-family: Lato; font-weight: 600;
 }
 .sign-up{
-    background-color: #f80980; width: 150px; height: 55px;  border-radius: 100px; color: #FFF; font-size: 20px; font-weight: bold; border: 5px; border-color: #FFF;
+    background-color: #df355a; color: #FFF; font-size: 25px; font-weight: bold; padding: 5px 5px; width: fit-content; margin-top: 10px; font-family: Lato;
+}
+li .dropdown{
+    display: none; position: absolute;
+}
+li:hover > .dropdown{
+    display: block;
 }
 /* Banner */
 .banner{ display: flex;
