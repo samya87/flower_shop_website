@@ -4,6 +4,7 @@
 .primary-btn{
     border: 0; padding: 20px 43px; border-radius: 8px; background: #E55473; color: #FFF; font-size: 20px; font-weight: 700; font-family: Lato;
 }
+/* Banner */
 .banner{ display: flex;
     width: 1920px; height: 850px;
     background: rgba(229, 84, 115, 0.10);
@@ -22,6 +23,7 @@
 .banner-img{
     margin-right: 240px; margin-top: 50px;
 }
+/* Hot-deal */
 .sale{ display: flex;
     width: 1920px; height: 620px;
     background: rgba(229, 84, 115, 0.05);
@@ -43,4 +45,76 @@
 .sale-img{
     padding-top: 100px; padding-right: 430px;
     width: 318px; height: 420px;
+}
+/* instagram section */
+.insta-title{
+    color: #272727;font-family: Lato; font-size: 40px; font-weight: 800; margin-top: 128px; margin-left: 870px; margin-bottom: 24px;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60); font-size: 18px; font-weight: 400; line-height: 30px; font-family: Lato; text-align: center;
+    width: 594px; margin-left: 663px; margin-bottom: 48px;
+}
+.insta-img{
+    display: flex; gap: 24px; margin-bottom: 128px;
+}
+/* get the latest deal - subscribe */
+.latest-deal{
+    align-items: center; width: 1440px; height: 449px; ;
+    background-color: #4e94f0; margin-left: 240px; margin-bottom: 128px; border-radius: 8px; background-repeat: no-repeat; 
+}
+.latest-deal-title{
+    color: #272727; font-family: Lato; font-size: 40px; font-weight: 800; margin-top: 128px; margin-left: 530px; margin-bottom: 24px; padding-top: 122px;
+}
+.latest-deal-description{
+    color: rgba(39, 39, 39, 0.60); font-size: 18px; font-weight: 400; line-height: 30px; font-family: Lato; text-align: center;
+    width: 594px; margin-left: 604px; margin-bottom: 48px;
+}
+.your-email{
+    color: rgba(39, 39, 39, 0.60);  font-family: Lato; font-size: 16px;
+    font-weight: 400; width: 700px;
+    height: 64px; margin-left: 287px; border-radius: 8px; border: 0; color: #FFF; margin-right: 16px; padding-left: 22px; 
+}
+
+/* Footer */
+.pink{ color: #E55473;}
+.white{color: #E55473;}
+.footer{
+    background-color: #111010;; width: 1922px;
+    height: 449px; justify-content: space-around;
+    align-items: center;
+}
+.footer-title{
+    color: white; font-size: 48px;font-weight: 900; padding-left: 830px; padding-top: 128px;
+    font-family: Lato;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90); font-size: 18px; font-weight: 400; line-height: 30px; font-family: Lato;
+    text-align: center;
+    width: 625px; margin-left: 650px; margin-bottom: 32px;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);text-align: center; font-family: Lato;font-size: 16px;font-weight: 400; margin-left: 780px; 
+}
+
+/* extra work - featured flowers */
+.featured-title{
+    color: #272727;font-family: Lato; font-size: 40px; font-weight: 800; margin-top: 128px; margin-left: 764px; margin-bottom: 24px;
+}
+.one-featured-image{
+    width: 464px; height: 538px; border-radius: 300px 300px 0px 0px; border: 0px;
+}
+.featured-flower-images{
+    display: flex; gap: 24px;
+}
+.flower-in-box-1{ 
+    padding-top: 110px; padding-left: 76px;
+    width: 310px; height: 428px; padding-right: 78px;
+}
+.flower-in-box-2{ 
+    padding: 117px 47px 51px 47px;
+    width: 370px; height: 370px; 
+}
+.flower-in-box-3{ 
+    padding-top: 67px; padding-left: 76px;
+    width: 314px; height: 471px; padding-right: 78px;
 }
