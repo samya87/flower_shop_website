@@ -4,11 +4,35 @@
 .primary-btn{
     border: 0; padding: 20px 43px; border-radius: 8px; background: #E55473; color: #FFF; font-size: 20px; font-weight: 700; font-family: Lato;
 }
+
+#logo{
+    background-color: #df355a;
+    width: 200px; height: 140px; margin-left: 1cm; border-radius: 5px 800px;
+    box-shadow: 10px 10px 50px rgb(250, 248, 250); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #FFF; font-weight: 800; font-size: 37px; align-items: center; position: fixed; top: 20px; padding-left: 15px;
+}
+.parent{
+    display: flex; justify-content: space-between; }
+.menu{
+    display: flex; gap: 20px; position: fixed; background-color: #080808e1; width: 1800px; height: 80px; 
+}
+li{
+    list-style: none; background-color: white; padding: 15px 5px;  
+    border-radius: 8px;  width:190px; height: fit-content; text-align: center;
+}
+ul{
+    padding-top: 50px; padding-left: 900px;
+}
+li a{
+    text-decoration: none; color: black; font-size: 25px;  
+}
+.sign-up{
+    background-color: #f80980; width: 150px; height: 55px;  border-radius: 100px; color: #FFF; font-size: 20px; font-weight: bold; border: 5px; border-color: #FFF;
+}
 /* Banner */
 .banner{ display: flex;
     width: 1920px; height: 850px;
     background: rgba(229, 84, 115, 0.10);
-    justify-content: space-between; align-items: center;
+    justify-content: space-between; align-items: center; margin-top: 80px;
 }
 .banner-title{
     width: 708px; color: #272727; font-family: Lato;
@@ -70,14 +94,14 @@
     width: 594px; margin-left: 604px; margin-bottom: 48px;
 }
 .your-email{
-    color: rgba(39, 39, 39, 0.60);  font-family: Lato; font-size: 16px;
+    color: rgba(0, 0, 0, 1);  font-family: Lato; font-size: 16px;
     font-weight: 400; width: 700px;
-    height: 64px; margin-left: 287px; border-radius: 8px; border: 0; color: #FFF; margin-right: 16px; padding-left: 22px; 
+    height: 64px; margin-left: 287px; border-radius: 8px; border: 0; margin-right: 16px; padding-left: 22px; 
 }
 
 /* Footer */
 .pink{ color: #E55473;}
-.white{color: #E55473;}
+.white{color: white}
 .footer{
     background-color: #111010;; width: 1922px;
     height: 449px; justify-content: space-around;
@@ -108,7 +132,7 @@
 }
 .flower-in-box-1{ 
     padding-top: 110px; padding-left: 76px;
-    width: 310px; height: 428px; padding-right: 78px;
+    width: 310px; height: 428px; padding-right: 78px; 
 }
 .flower-in-box-2{ 
     padding: 117px 47px 51px 47px;
@@ -117,4 +141,9 @@
 .flower-in-box-3{ 
     padding-top: 67px; padding-left: 76px;
     width: 314px; height: 471px; padding-right: 78px;
+}
+.captions{
+    color: #272727; text-align: center; font-family: Lato;
+    font-size: 24px; font-weight: 700;
+    line-height: 35px; text-decoration-line: underline; margin-top: 32px;
 }

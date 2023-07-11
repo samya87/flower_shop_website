@@ -9,11 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+
     <link rel="stylesheet" href="styles/flower.css">
 </head>
 <body>
     <header>
+        <nav class="parent">
+            <ul class="menu">
+                <li><a href="https://depositphotos.com/stock-photos/flowers.html">Flowers</a></li>
+                <li><a href="https://unsplash.com/s/photos/basket-of-flowers">Basket Bouquets</a></li>
+                <li><a href="https://depositphotos.com/stock-photos/flowers.html">Orchids</a></li>
+                <li><a href="" >More</a></li>
+                <button class="sign-up">Sign Up</button>
+            </ul>
+            <div id="logo">
+                <h1>Fl<span style="color: black;">o</span>wer</h1>
+                <h1>Shop</h1>
 
+            </div>
+        </nav>
     </header>
     <main>
         <div class="banner">
@@ -31,22 +47,32 @@
             <div class="featured-flower-images">
 
                 <div class="one-featured-image"  style="background: rgba(167, 33, 98, 0.15); margin-left: 240px;">
-                    <img src="images/pngwing 6.png" alt="" class="flower-in-box-1">
+                    <figure>
+                        <img src="images/pngwing 6.png" alt="" class="flower-in-box-1">
+                        <figcaption class="captions">Pink Flower Tree</figcaption>
+                    </figure>
+                    
                 </div>
 
-                <div class="one-featured-image"  style="background: rgba(167, 33, 98, 0.15); ">
-                    <img src="images/pngwing 5.png" alt="" class="flower-in-box-2">
+                <div class="one-featured-image"  style="background: rgba(5, 151, 160, 0.15); ">
+                    <figure>
+                        <img src="images/pngwing 5.png" alt="" class="flower-in-box-2">
+                        <figcaption class="captions">Pink Flower Tree</figcaption>
+                    </figure>
                 </div>
 
-                <div class="one-featured-image"  style="background: rgba(167, 33, 98, 0.15);">
-                    <img src="images/pngwing 7.png" alt="" class="flower-in-box-3">
+                <div class="one-featured-image"  style="background: rgba(71, 125, 17, 0.15); ">
+                    <figure>
+                        <img src="images/pngwing 7.png" alt="" class="flower-in-box-3">
+                        <figcaption class="captions">Pink Flower Tree</figcaption>
+                    </figure>
                 </div>
                 
             </div>
         </div>
         <div class="sale">
             <div>
-                <p class="sale-title">Hot Deal ! Sale Up To 25% Off</p>
+                <p class="sale-title">Hot Deal ! Sale Up To 25% <span class="pink">Off</span></p>
                 <p class="sale-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 <button class="primary-btn" style="margin-left: 603px;">Sign Up</button>
             </div>
@@ -67,7 +93,7 @@
                 <p class="latest-deal-description" style="width: 231px;">$30 coupon for first shopping</p>
                 <div class="subscribe">
                     <input type="email" name="" id="" class="your-email" placeholder="Enter your email here....">
-                    <input type="submit" value="Subscribe" class="primary-btn">
+                    <input type="submit" value="Subscribe" class="primary-btn" onclick="alert('Congrats!! You subscribed')">
                 </div>
                 </div>
         </div>
