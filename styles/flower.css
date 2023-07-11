@@ -2,7 +2,7 @@
     margin: 0px;
 }
 .primary-btn{
-    border: 0; padding: 20px 43px; border-radius: 8px; background: #E55473; color: #FFF; font-size: 20px; font-weight: 700; font-family: Lato;
+    border: 0; padding: 20px 43px; border-radius: 8px; background: #E55473; color: #FFF; font-size: 20px; font-weight: 900; font-family: Lato;
 }
 
 #logo{
@@ -19,14 +19,18 @@
     background-color: #080808e1; width: 1220px; height: 80px; 
 }
 li{
-    list-style: none; background-color: white; padding: 15px 5px;  
-    border-radius: 8px;  width:190px; height: fit-content; text-align: center;
+    list-style: none; background-color: rgb(255, 255, 255); padding: 5px 0px;  
+    border-radius: 8px;  width:158px; height: fit-content; text-align: center;
 }
 ul{
     padding-top: 50px; padding-left: 700px;
 }
 li a{
     text-decoration: none; color: black; font-size: 25px;  font-family: Lato; font-weight: 600;
+}
+li button{
+    text-decoration: none; color: black; font-size: 10px;  font-family: Lato; font-weight: 400; 
+    border: 0; padding: 5px; border-radius: 8px; background: #ffffff; color: #000000; font-size: 25px; font-weight: 700; font-family: Lato; height: 50px; width: 150px;
 }
 .sign-up{
     background-color: #df355a; color: #FFF; font-size: 25px; font-weight: bold; padding: 5px 5px; width: fit-content; height: 40px;  padding-top: 16px;
