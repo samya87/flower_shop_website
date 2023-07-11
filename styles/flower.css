@@ -6,14 +6,17 @@
 }
 
 #logo{
-    background-color: #df355a;
+    background-color: #df4365;
     width: 200px; height: 140px; margin-left: 1cm; border-radius: 5px 800px;
-    box-shadow: 10px 10px 50px rgb(250, 248, 250); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #FFF; font-weight: 800; font-size: 37px; align-items: center; position: fixed; top: 20px; padding-left: 15px;
+    box-shadow: 10px 10px 50px rgb(250, 248, 250); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #FFF; font-weight: 800; font-size: 37px; align-items: center; padding-left: 15px;
+     position: fixed; top: 20px;  
 }
 .parent{
     display: flex; justify-content: space-between; }
 .menu{
-    display: flex; gap: 20px; position: fixed; background-color: #080808e1; width: 1220px; height: 80px; 
+    display: flex; gap: 20px; 
+    position: fixed; 
+    background-color: #080808e1; width: 1220px; height: 80px; 
 }
 li{
     list-style: none; background-color: white; padding: 15px 5px;  
@@ -26,14 +29,29 @@ li a{
     text-decoration: none; color: black; font-size: 25px;  font-family: Lato; font-weight: 600;
 }
 .sign-up{
-    background-color: #df355a; color: #FFF; font-size: 25px; font-weight: bold; padding: 5px 5px; width: fit-content; margin-top: 10px; font-family: Lato;
+    background-color: #df355a; color: #FFF; font-size: 25px; font-weight: bold; padding: 5px 5px; width: fit-content; height: 40px;  padding-top: 16px;
+    /* margin-top: 10px;  */
+    font-family: Lato;
 }
-li .dropdown{
-    display: none; position: absolute;
+.sign-up:hover {
+    background-color: rgb(252, 149, 192); color: #0e1011;
 }
-li:hover > .dropdown{
+li:hover{
+    color: white; 
+    background-color: #f04a6e; 
+}
+nav li .dropdown{
+    display: none;
+      position: absolute; background-color: rgb(250, 227, 238); padding-left: 1px; padding-top: 5px;
+}
+nav li:hover .dropdown{
     display: block;
 }
+.more{
+    font-family: Lato; font-size: 27px; background-color: #fcbfd1; color: #0e1011;font-weight: 900; 
+     /* border: #3a151d; border: 10px;  */
+}
+
 /* Banner */
 .banner{ display: flex;
     width: 1920px; height: 850px;
